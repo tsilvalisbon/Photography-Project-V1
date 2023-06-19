@@ -1,0 +1,30 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section {
+    display: block;
+    padding-top: 75px;
+}
+
+.container{
+    width: 970px;
+    margin: auto;
+    padding-top: 75px;
+}
+
+.container h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}

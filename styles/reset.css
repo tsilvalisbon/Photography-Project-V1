@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *, *::before, *::after{
@@ -8,7 +9,6 @@ html{
 
 body{
     min-height: 100vh;
-    scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
 }
@@ -33,7 +33,7 @@ input[type="text"], input[type="email"], textarea {
 }
 
 input , textarea , button{
-    border: 1px solid gray;
+    border: 1px solid rgb(95, 92, 92);
 }
 
 button {
